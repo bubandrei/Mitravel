@@ -5,7 +5,7 @@
   "source": "index.pug",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "start": "parcel",
+    "start": "parcel index.pug",
     "build": "parcel build"
   },
   "devDependencies": {
