@@ -3,8 +3,23 @@
   src: url("SFPRODISPLAYREGULAR.4d439523.OTF");
 }
 
+button {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  background-color: #0000;
+  border: none;
+  padding: 0;
+}
+
 body {
   font-family: SFProDisplay, sans-serif;
+}
+
+.container {
+  max-width: 1570px;
+  height: 1080px;
+  position: relative;
 }
 
 header {
@@ -44,10 +59,60 @@ header nav div {
 
 .background img {
   width: 100%;
+  height: 1080px;
 }
 
 .wrapMainText {
-  z-index: 3;
+  color: #fff;
+  max-width: 500px;
+  flex-direction: column;
+  margin: 162px 0 0;
+  display: flex;
+  position: absolute;
 }
 
-</style></head><body><header class="container"><nav class="navbar"><picture> <img src="/Path.bf243a8d.png"><img src="/Path.caba8c60.svg" alt="#"></picture><div>MITRAVEL</div><div>Hamburger</div></nav></header><picture class="background"> <img src="/Background.2e22468c.jpg" alt=""></picture><div class="wrapMainText"> <p class="head">NEW BOOK</p><p class="title">Mother Earth Hosts Our Travels</p><p class="mainText">There are not many cities that have experienced such social and political extremes in recent history as Amsterdam. In the 20th century alone, Amsterdam faced the atrocities of war for the first time in 400 years, became the radical center of 1960s social movements and witnessed a complete </p><p class="btn"> <button>BUY THE BOOK        </button></p></div><script src="/Mitravel.748dbb6c.js"></script></body></html>
+.wrapMainText .head {
+  letter-spacing: 2px;
+  margin-bottom: 57px;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.wrapMainText .title {
+  margin-bottom: 40px;
+  font-size: 80px;
+  line-height: 84px;
+}
+
+.wrapMainText .mainText {
+  margin-bottom: 60px;
+  font-family: SFCompactText;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.wrapMainText .btn {
+  max-width: 274px;
+  height: 80px;
+  background: #e8594e;
+  border-radius: 8px;
+  justify-content: center;
+  display: flex;
+}
+
+.wrapMainText .btn button {
+  color: #fff;
+  letter-spacing: 2.18182px;
+  text-align: center;
+  vertical-align: baseline;
+  font-size: 12px;
+}
+
+.bottomHead {
+  max-width: 1066px;
+  height: 120px;
+  position: absolute;
+  bottom: 0;
+}
+
+</style></head><body><picture class="background"> <img src="/Background.2e22468c.jpg" alt=""></picture><header class="container"><nav class="navbar"><picture> <img src="/Path.bf243a8d.png"><img src="/Path.caba8c60.svg" alt="#"></picture><div>MITRAVEL</div><div>Hamburger</div></nav><div class="wrapMainText"> <div class="head">NEW BOOK</div><div class="title">Mother Earth Hosts Our Travels</div><div class="mainText">There are not many cities that have experienced such social and political extremes in recent history as Amsterdam. In the 20th century alone, Amsterdam faced the atrocities of war for the first time in 400 years, became the radical center of 1960s social movements and witnessed a complete </div><div class="btn"> <button>BUY THE BOOK        </button></div></div><div class="bottomHead"><input type="text" placeholder="Search stories"></div></header><script src="/Mitravel.748dbb6c.js"></script></body></html>
