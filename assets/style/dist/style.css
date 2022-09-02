@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><title></title><style>header {
+header {
   max-width: 1570px;
   margin: 0 auto;
   position: relative;
@@ -23,4 +23,4 @@ header nav div {
   height: 100%;
   top: 0;
   left: 0;
-}</style></head><body><header class="container"><nav class="navbar"><picture> <img src="/Path.fe1c63a2.png"><img src="/Path.fe1c63a2.png" alt="#"></picture><div>MITRAVEL</div><div>Hamburger</div></nav></header><picture class="background"> <img src="/Background.6817366e.jpg" alt=""></picture></body></html>
+}
