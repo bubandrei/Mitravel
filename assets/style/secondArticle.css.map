@@ -1,1 +1,1 @@
-{"version":3,"sources":["secondArticle.scss","secondArticle.css"],"names":[],"mappings":"AAGA;EACI,iBAJQ;EAKR,cAAA;EACA,kBAAA;ACFJ","file":"secondArticle.css"}
+{"version":3,"sources":["secondArticle.scss","secondArticle.css"],"names":[],"mappings":"AAGA;EACI,kBAAA;EACA,kBAAA;ACFJ;ADGI;EACI,iBAPI;EAQJ,cAAA;EACA,kBAAA;ACDR;ADGI;EACI,WAAA;EACA,oBAAA;KAAA,iBAAA;EACA,YAAA;EACA,MAAA;EACA,OAAA;ACDR;ADEQ;EACI,WAAA;EACA,cAAA;ACAZ;ADEQ;EACI,gBAAA;EACA,kBAAA;EACA,QAAA;EACA,MAAA;ACAZ;ADGI;EACI,kBAAA;EACA,aAAA;EACA,MAAA;EACA,iBAhCI;EAiCJ,cAhCC;AC+BT","file":"secondArticle.css"}
