@@ -1,0 +1,39 @@
+$max-width: 1570px;
+$margin: 0 auto;
+
+header {
+    max-width: $max-width;
+    margin: $margin;
+    position: relative;
+    z-index: 3;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 53px;
+        img{
+            padding-right: 40px;
+        }
+        div {
+            font-size: 22px;
+            line-height: 26px;
+            letter-spacing: 2px;
+            color: #ffffff;
+            font-weight: 900;
+        }
+    }
+}
+.background {
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    height: 100%;
+    top: 0;
+    left: 0;
+    img {
+        width: 100%;
+    }
+}
+.wrapMainText{
+    z-index: 3;
+}

@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "SFProDisplay";
+  src: url("/assets/fonts/SFPRODISPLAYREGULAR.OTF");
+}
+body {
+  font-family: "SFProDisplay", sans-serif;
+}
+
+header {
+  max-width: 1570px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 3;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 53px;
+}
+header nav img {
+  padding-right: 40px;
+}
+header nav div {
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  font-weight: 900;
+}
+
+.background {
+  width: 100%;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.background img {
+  width: 100%;
+}
+
+.wrapMainText {
+  z-index: 3;
+}/*# sourceMappingURL=style.css.map */
