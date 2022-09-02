@@ -82,16 +82,42 @@ header nav div {
 }
 
 .bottomHead {
+  width: 100%;
   position: absolute;
-  bottom: 0;
+  bottom: 8px;
   height: 120px;
   display: flex;
+  justify-content: space-between;
 }
 .bottomHead input {
-  max-width: 1066px;
-}
-.bottomHead .toggelImg {
-  background-color: rgba(223, 223, 223, 0.5019607843);
+  width: 100%;
+  padding: 49px 56px;
   background: #ffffff;
   box-shadow: inset 0px -2px 0px rgba(223, 223, 223, 0.5);
+  border-radius: 4px 0px 0px 0px;
+  border: none;
+}
+.bottomHead .picture {
+  position: relative;
+  top: -280px;
+}
+.bottomHead img {
+  background: linear-gradient(0deg, #73afba, #73afba);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px 8px 0px 0px;
+  margin-bottom: -4px;
+}
+.bottomHead .toggle {
+  max-width: 502px;
+  height: 120px;
+  background: #73afba;
+  border-radius: 0px 4px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2.18182px;
+  text-transform: uppercase;
 }/*# sourceMappingURL=styleHeader.css.map */
