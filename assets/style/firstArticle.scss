@@ -1,0 +1,23 @@
+$max-width: 1570px;
+$margin: 0 auto;
+
+.container {
+    max-width: $max-width;
+    margin: $margin;
+    height: 1080px;
+    position: relative;
+    .callArticle {
+        margin-top: 150px;
+        max-width: 730px;
+        font-weight: 900;
+        height: 160px;
+        font-size: 64px;
+        line-height: 80px;
+        color: #1c2e3d;
+    }
+    .wrapImg{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 96px;
+    }
+}

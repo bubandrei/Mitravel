@@ -137,4 +137,25 @@ header nav div {
   line-height: 14px;
   letter-spacing: 2.18182px;
   text-transform: uppercase;
+}
+
+.container {
+  max-width: 1570px;
+  margin: 0 auto;
+  height: 1080px;
+  position: relative;
+}
+.container .callArticle {
+  margin-top: 150px;
+  max-width: 730px;
+  font-weight: 900;
+  height: 160px;
+  font-size: 64px;
+  line-height: 80px;
+  color: #1c2e3d;
+}
+.container .wrapImg {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 96px;
 }/*# sourceMappingURL=style.css.map */
