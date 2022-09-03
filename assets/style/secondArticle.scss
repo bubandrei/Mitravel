@@ -80,9 +80,12 @@ section {
             margin-top: 64px;
             display: flex;
             flex-direction: column;
+            .topic:not(:last-child){
+                border-bottom: 1px solid rgba(227, 227, 227, 0.5);
+            }
             .topic {
                 display: flex;
-                border-bottom: 1px solid rgba(227, 227, 227, 0.5);
+
                 margin-top: 32px;
                 img {
                     max-width: 48px;

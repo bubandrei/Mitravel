@@ -270,8 +270,11 @@ section {
   display: flex;
 }
 
-.rightContainer .rightColumn .topics .topic {
+.rightContainer .rightColumn .topics .topic:not(:last-child) {
   border-bottom: 1px solid #e3e3e380;
+}
+
+.rightContainer .rightColumn .topics .topic {
   margin-top: 32px;
   display: flex;
 }
