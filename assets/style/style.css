@@ -458,6 +458,33 @@ picture .sizeImg {
   width: 100%;
   margin-bottom: 32px;
 }
+.wrap picture .row1foto {
+  position: relative;
+}
+.wrap picture .row1foto .row1foto-fill {
+  position: absolute;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  top: 322px;
+}
+.wrap picture .row1foto .row1foto-fill .about {
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+.wrap picture .row1foto .row1foto-fill .title {
+  font-size: 32px;
+  line-height: 40px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.wrap picture .row1foto2 {
+  position: relative;
+}
 
 .footer {
   height: 498px;

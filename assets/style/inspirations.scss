@@ -21,9 +21,36 @@ $margin: 0 auto;
         text-align: center;
         margin: 0 auto 96px auto;
     }
-    picture{
+    picture {
         display: flex;
         width: 100%;
         margin-bottom: 32px;
+        .row1foto {
+            position: relative;
+            .row1foto-fill {
+                position: absolute;
+                left: 40px;
+                display: flex;
+                flex-direction: column;
+                top: 322px;
+                .about {
+                    font-size: 10px;
+                    line-height: 12px;
+                    letter-spacing: 1.1px;
+                    text-transform: uppercase;
+                    color: #ffffff;
+                    margin-bottom: 8px;
+                }
+                .title {
+                    font-size: 32px;
+                    line-height: 40px;
+                    color: #ffffff;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+        .row1foto2 {
+            position: relative;
+        }
     }
 }
