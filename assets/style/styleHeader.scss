@@ -20,7 +20,7 @@ header {
         img {
             padding-right: 40px;
         }
-        div {
+        p {
             font-size: 22px;
             line-height: 26px;
             letter-spacing: 2px;
@@ -101,10 +101,17 @@ header {
         top: -280px;
     }
     img {
-        background: linear-gradient(0deg, #73afba, #73afba);
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 8px 8px 0px 0px;
         margin-bottom: -4px;
+    }
+    .btnPlay {
+        position: absolute;
+        top: 100px;
+        left: 45%;
+        border-radius: 0px;
+        img {
+            border-radius: 0px;
+        }
     }
     .toggle {
         max-width: 502px;
@@ -112,11 +119,10 @@ header {
         background: #73afba;
         border-radius: 0px 4px 0px 0px;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         color: #ffffff;
         font-size: 12px;
-        line-height: 14px;
         letter-spacing: 2.18182px;
         text-transform: uppercase;
     }
