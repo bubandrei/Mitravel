@@ -1,0 +1,29 @@
+$max-width: 1570px;
+$margin: 0 auto;
+
+.wrap {
+    max-width: $max-width;
+    margin: $margin;
+    position: relative;
+    .nameArticle {
+        padding-top: 150px;
+        font-size: 64px;
+        line-height: 80px;
+        text-align: center;
+        color: #1c2e3d;
+    }
+    .textArticle {
+        max-width: 634px;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #788692;
+        text-align: center;
+        margin: 0 auto 96px auto;
+    }
+    picture{
+        display: flex;
+        width: 100%;
+        margin-bottom: 32px;
+    }
+}
