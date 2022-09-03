@@ -60,11 +60,54 @@ section {
         }
     }
 }
-.rightColumn {
+.rightContainer {
     position: absolute;
     max-width: 678px;
     right: 0;
     top: 0;
+    .rightColumn {
+        position: absolute;
+        max-width: 368px;
+        top: 127px;
+        left: 133px;
+        .callSecondCol {
+            max-width: 368px;
+            font-size: 64px;
+            line-height: 80px;
+            color: #ffffff;
+        }
+        .topics {
+            margin-top: 64px;
+            display: flex;
+            flex-direction: column;
+            .topic {
+                display: flex;
+                border-bottom: 1px solid rgba(227, 227, 227, 0.5);
+                margin-top: 32px;
+                img {
+                    max-width: 48px;
+                    max-height: 48px;
+                    border-radius: 50%;
+                    margin-right: 32px;
+                }
+                .topicWrap {
+                    max-width: 288px;
+                    .textTopic {
+                        font-size: 18px;
+                        line-height: 24px;
+                        color: #ffffff;
+                        margin-bottom: 8px;
+                    }
+                    .dateTopic {
+                        font-size: 11px;
+                        line-height: 13px;
+                        color: rgba(255, 255, 255, 0.502293);
+                        margin-bottom: 32px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 .backgroundSecond {
