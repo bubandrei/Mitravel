@@ -41,13 +41,18 @@ $margin: 0 auto;
                 color: #959ea6;
             }
             input {
-                width: 336px;
+                width: 304px;
                 height: 64px;
-                padding-left: 32px;
+                padding: 0 32px;
                 margin-bottom: 16px;
+                font-size: 17px;
                 border-radius: 8px;
                 background: #ffffff;
-                box-shadow: inset 0px 1px 0px rgba(179, 179, 179, 0.5);
+                border: 1px solid rgba(179, 179, 179, 0.5);
+            }
+            input::placeholder {
+                background: url(assets/style/user.svg) no-repeat right;
+               
             }
             .btn {
                 max-width: 376px;
