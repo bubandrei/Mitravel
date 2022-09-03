@@ -337,4 +337,73 @@ picture .wrapVideo .bottomTextPlay {
 picture .sizeImg {
   max-height: 550px;
   align-self: center;
+}
+
+.wrapForm {
+  max-width: 1570px;
+  margin: 150px auto 0 auto;
+  height: 798px;
+  position: relative;
+}
+.wrapForm img {
+  width: 100%;
+}
+.wrapForm .blockForm {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  max-width: 368px;
+  top: 336px;
+  left: 135px;
+}
+.wrapForm .blockForm .blockTitle {
+  font-size: 64px;
+  line-height: 80px;
+  color: #ffffff;
+}
+.wrapForm .blockForm .blockText {
+  margin-top: 40px;
+  font-family: "SFCompactText";
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.wrapForm form {
+  max-width: 501px;
+  position: absolute;
+  right: 133px;
+  top: 474px;
+  background-color: #ffffff;
+}
+.wrapForm form .wrapInput {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 65px;
+  width: 501px;
+}
+.wrapForm form .wrapInput .line input {
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #1c2e3d;
+  border: transparent;
+  border-bottom: 1px solid #1c2e3d;
+  margin-left: 73px;
+  padding-bottom: 24px;
+  padding-top: 32px;
+  width: 352px;
+}
+.wrapForm form .btnForm {
+  height: 80px;
+  background: #73afba;
+  border-radius: 0 0 8px 8px;
+  display: flex;
+  justify-content: center;
+}
+.wrapForm form .btnForm button {
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 2.18182px;
+  text-align: center;
+  vertical-align: baseline;
 }/*# sourceMappingURL=style.css.map */
