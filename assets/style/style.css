@@ -159,6 +159,23 @@ header nav div {
   justify-content: space-between;
   margin-top: 96px;
 }
+.container .wrapImg .withMask {
+  position: relative;
+}
+.container .wrapImg .withMask .mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.container .wrapImg .withMask .maskText {
+  position: absolute;
+  font-size: 26px;
+  line-height: 31px;
+  color: #ffffff;
+  left: 53px;
+  bottom: 61px;
+  width: 236px;
+}
 
 section {
   position: relative;

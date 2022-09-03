@@ -15,9 +15,26 @@ $margin: 0 auto;
         line-height: 80px;
         color: #1c2e3d;
     }
-    .wrapImg{
+    .wrapImg {
         display: flex;
         justify-content: space-between;
         margin-top: 96px;
+        .withMask {
+            position: relative;
+            .mask {
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+            .maskText {
+                position: absolute;
+                font-size: 26px;
+                line-height: 31px;
+                color: #ffffff;
+                left: 53px;
+                bottom: 61px;
+                width: 236px;
+            }
+        }
     }
 }
