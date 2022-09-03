@@ -164,7 +164,7 @@ header nav div {
   max-width: 730px;
   height: 160px;
   color: #1c2e3d;
-  margin-top: 150px;
+  padding-top: 150px;
   font-size: 64px;
   font-weight: 900;
   line-height: 80px;
@@ -177,43 +177,98 @@ header nav div {
 }
 
 section {
-  margin-top: -120px;
+  height: 1080px;
   position: relative;
 }
 
-section .container {
+.container {
   max-width: 1570px;
   height: 1080px;
+  position: relative;
+}
+
+.leftColumn {
+  max-width: 634px;
   position: absolute;
+  top: 604px;
 }
 
-section .backgroundSecond {
-  width: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  height: 100%;
-  top: 0;
-  left: 0;
+.leftColumn .btnTop {
+  width: 132px;
+  height: 48px;
+  background: #e8594e;
+  border-radius: 24px;
+  justify-content: center;
+  display: flex;
 }
 
-section .backgroundSecond img {
-  width: 100%;
-  height: 1080px;
+.leftColumn .btnTop .btnTopText {
+  letter-spacing: 2px;
+  color: #fff;
+  text-align: center;
+  vertical-align: baseline;
+  font-size: 11px;
 }
 
-section .backgroundSecond .rectangle {
-  max-width: 35.4%;
+.leftColumn .callFeatured {
+  height: 128px;
+  color: #fff;
+  margin: 16px 0;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.leftColumn .textFeatured {
+  color: #fff;
+  font-family: SFCompactText;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.leftColumn .btnBottom {
+  max-width: 274px;
+  height: 80px;
+  background: #73afba;
+  border-radius: 8px;
+  justify-content: center;
+  margin-top: 40px;
+  display: flex;
+}
+
+.leftColumn .btnBottom .btnBottomText {
+  color: #fff;
+  letter-spacing: 2.18182px;
+  text-align: center;
+  vertical-align: baseline;
+  font-size: 12px;
+}
+
+.rightColumn {
+  max-width: 678px;
   position: absolute;
   top: 0;
   right: 0;
 }
 
-section .wrapFeatured {
-  max-width: 1570px;
-  margin: 0 auto;
-  display: flex;
+.backgroundSecond {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  height: 100%;
   position: absolute;
   top: 0;
+  left: 0;
 }
 
-</style></head><body><picture class="background"> <img src="/Background.2e22468c.jpg" alt=""></picture><header class="container"><nav class="navbar"><picture> <img src="/Path.bf243a8d.png"><img src="/Path.caba8c60.svg" alt="#"></picture><div>MITRAVEL</div><div>Hamburger</div></nav><div class="wrapMainText"> <div class="head">NEW BOOK</div><div class="title">Mother Earth Hosts Our Travels</div><div class="mainText">There are not many cities that have experienced such social and political extremes in recent history as Amsterdam. In the 20th century alone, Amsterdam faced the atrocities of war for the first time in 400 years, became the radical center of 1960s social movements and witnessed a complete </div><div class="btn"> <button>BUY THE BOOK        </button></div></div><div class="bottomHead"><input type="text" placeholder="Search stories"><div class="picture"><img src="/Rectangle2.c0526558.jpg" alt="#"><div class="toggle">wonderful moutain     </div></div></div></header><section class="container"><div class="callArticle">Become A Travel Pro In One Easy Lesson</div><div class="wrapImg"> <img src="/Group4.eab26b28.jpg" alt="#"><img src="/MaskGroup.71dccdc8.png" alt="#"><img src="/Copy8.2628b82e.png" alt="#"><img src="/Copy9.fe6e1388.png" alt="#"></div></section><section> <picture class="backgroundSecond"> <img src="/Background2.a23ac12a.png" alt="#"><img class="rectangle" src="/Rectangle.3b074245.png" alt="#"></picture><div class="container"><div class="wrapFeatured"> <div class="lefrColumn"> <button>FEATURED</button><p class="callFeatured">How To Fly A Private Jet On Your Next Trip</p><p class="textFeatured">The state of Utah in the United States is home to lots of beautiful National Parks, & Bryce Canyon National Park ranks as three of the most magnificent & awe inspiring.</p><p class="btnBottom">READ ARTICLE</p></div><div class="rightColumn"> <p class="callSecondCol">Featured Stories</p><p class="firstAuthor"></p><p><img src="/Avatar1.97d5d7b6.jpg" alt="#"></p><p class="topicOne">Do A Sporting Stag Do In Birmingham</p><p class="dateTopicOne">13 Dec 2019   </p><p></p><p><img src="/Avatar2.f2025ea8.jpg" alt="#"></p><p class="topicTwo">From Wetlands To Canals And Dams Amsterdam Is Alive</p><p class="dateTopicTwo">13 Dec 2019   </p><p></p><p><img src="/Avatar3.b66de373.jpg" alt="#"></p><p class="topicThree">Stu Unger Rise And Fall Of A Poker Genius</p><p class="dateTopicThree">13 Dec 2019   </p><p></p><p></p><img src="/Avatar4.e5833219.jpg" alt="#"><p class="topicFour">New Ideas For A Low Cost Vacation On Water</p><p class="dateTopicFour">13 Dec 2019   </p><p></p></div></div></div></section><script src="/Mitravel.748dbb6c.js"></script></body></html>
+.backgroundSecond img {
+  width: 100%;
+  height: 1080px;
+}
+
+.backgroundSecond .rectangle {
+  max-width: 35.4%;
+  position: absolute;
+  right: 0;
+}
+
+</style></head><body><picture class="background"> <img src="/Background.2e22468c.jpg" alt="#"></picture><header class="container"><nav class="navbar"><picture> <img src="/Path.bf243a8d.png" alt="#"><img src="/Path.caba8c60.svg" alt="#"></picture><div>MITRAVEL</div><div>Hamburger</div></nav><div class="wrapMainText"> <div class="head">NEW BOOK</div><div class="title">Mother Earth Hosts Our Travels</div><div class="mainText">There are not many cities that have experienced such social and political extremes in recent history as Amsterdam. In the 20th century alone, Amsterdam faced the atrocities of war for the first time in 400 years, became the radical center of 1960s social movements and witnessed a complete </div><div class="btn"> <button>BUY THE BOOK        </button></div></div><div class="bottomHead"><input type="text" placeholder="Search stories"><div class="picture"><img src="/Rectangle2.c0526558.jpg" alt="#"><div class="toggle">wonderful moutain     </div></div></div></header><section class="container"><div class="callArticle">Become A Travel Pro In One Easy Lesson</div><div class="wrapImg"> <img src="/Group4.eab26b28.jpg" alt="#"><img src="/MaskGroup.71dccdc8.png" alt="#"><img src="/Copy8.2628b82e.png" alt="#"><img src="/Copy9.fe6e1388.png" alt="#"></div></section><section> <picture class="backgroundSecond"> <img src="/Background2.a23ac12a.png" alt="#"></picture><div class="container"> <div class="leftColumn"> <div class="btnTop"><button class="btnTopText">FEATURED</button></div><div class="callFeatured">How To Fly A Private Jet On Your Next Trip</div><div class="textFeatured">The state of Utah in the United States is home to lots of beautiful National Parks, & Bryce Canyon National Park ranks as three of the most magnificent & awe inspiring.</div><div class="btnBottom"><button class="btnBottomText">READ ARTICLE</button></div></div></div><div class="rightColumn"><img class="rectangle" src="/Rectangle.3b074245.png" alt="#"><p class="callSecondCol">Featured Stories</p><p class="firstAuthor"></p><p><img src="/Avatar1.97d5d7b6.jpg" alt="#"></p><p class="topicOne">Do A Sporting Stag Do In Birmingham</p><p class="dateTopicOne">13 Dec 2019   </p><p></p><p><img src="/Avatar2.f2025ea8.jpg" alt="#"></p><p class="topicTwo">From Wetlands To Canals And Dams Amsterdam Is Alive</p><p class="dateTopicTwo">13 Dec 2019   </p><p></p><p><img src="/Avatar3.b66de373.jpg" alt="#"></p><p class="topicThree">Stu Unger Rise And Fall Of A Poker Genius</p><p class="dateTopicThree">13 Dec 2019   </p><p></p><p><img src="/Avatar4.e5833219.jpg" alt="#"></p><p class="topicFour">New Ideas For A Low Cost Vacation On Water</p><p class="dateTopicFour">13 Dec 2019   </p><p></p><p></p></div></section><script src="/Mitravel.748dbb6c.js"></script></body></html>

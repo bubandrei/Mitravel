@@ -146,7 +146,7 @@ header nav div {
   position: relative;
 }
 .container .callArticle {
-  margin-top: 150px;
+  padding-top: 150px;
   max-width: 730px;
   font-weight: 900;
   height: 160px;
@@ -162,14 +162,74 @@ header nav div {
 
 section {
   position: relative;
-  margin-top: -120px;
+  height: 1080px;
 }
-section .container {
+
+.container {
   max-width: 1570px;
   height: 1080px;
-  position: absolute;
+  position: relative;
 }
-section .backgroundSecond {
+
+.leftColumn {
+  position: absolute;
+  top: 604px;
+  max-width: 634px;
+}
+.leftColumn .btnTop {
+  width: 132px;
+  height: 48px;
+  background: #e8594e;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+}
+.leftColumn .btnTop .btnTopText {
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: baseline;
+}
+.leftColumn .callFeatured {
+  height: 128px;
+  font-size: 48px;
+  line-height: 64px;
+  color: #ffffff;
+  margin: 16px 0px;
+}
+.leftColumn .textFeatured {
+  font-family: "SFCompactText";
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.leftColumn .btnBottom {
+  margin-top: 40px;
+  max-width: 274px;
+  height: 80px;
+  background: #73afba;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+}
+.leftColumn .btnBottom .btnBottomText {
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 2.18182px;
+  text-align: center;
+  vertical-align: baseline;
+}
+
+.rightColumn {
+  position: absolute;
+  max-width: 678px;
+  right: 0;
+  top: 0;
+}
+
+.backgroundSecond {
+  position: absolute;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -177,20 +237,12 @@ section .backgroundSecond {
   top: 0;
   left: 0;
 }
-section .backgroundSecond img {
+.backgroundSecond img {
   width: 100%;
   height: 1080px;
 }
-section .backgroundSecond .rectangle {
+.backgroundSecond .rectangle {
   max-width: 35.4%;
   position: absolute;
   right: 0;
-  top: 0;
-}
-section .wrapFeatured {
-  position: absolute;
-  display: flex;
-  top: 0;
-  max-width: 1570px;
-  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
