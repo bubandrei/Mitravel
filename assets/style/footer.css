@@ -1,0 +1,22 @@
+.footer .containerFooter {
+  max-width: 1570px;
+  margin: 0 auto;
+  height: 578px;
+  display: flex;
+}
+.footer .containerFooter .firstColumn {
+  display: flex;
+  flex-direction: column;
+}
+.footer .containerFooter .secondColumn {
+  display: flex;
+  flex-direction: column;
+}
+.footer .containerFooter .thirdColumn {
+  display: flex;
+  flex-direction: column;
+}
+.footer .containerFooter .fourthColumn {
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=footer.css.map */
