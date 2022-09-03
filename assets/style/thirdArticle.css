@@ -20,21 +20,21 @@
   margin: 0 auto 96px auto;
 }
 
-.pictureStyle {
+picture {
   position: relative;
   display: flex;
   width: 100%;
   justify-content: space-between;
 }
-.pictureStyle .wrapVideo {
+picture .wrapVideo {
   position: relative;
 }
-.pictureStyle .wrapVideo .btnPlay {
+picture .wrapVideo .btnPlay {
   position: absolute;
   left: 48px;
   top: 39px;
 }
-.pictureStyle .wrapVideo .bottomTextPlay {
+picture .wrapVideo .bottomTextPlay {
   position: absolute;
   left: 40px;
   bottom: 40px;
@@ -42,7 +42,7 @@
   line-height: 40px;
   color: #ffffff;
 }
-.pictureStyle .sizeImg {
+picture .sizeImg {
   max-height: 550px;
   align-self: center;
 }/*# sourceMappingURL=thirdArticle.css.map */
