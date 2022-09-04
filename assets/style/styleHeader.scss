@@ -9,8 +9,7 @@ header {
     position: relative;
     z-index: 3;
     nav {
-        display: flex;
-        justify-content: space-between;
+        @include flex_jc(space-between);
         padding-top: 53px;
         img {
             padding-right: 40px;
@@ -25,7 +24,7 @@ header {
 }
 .background {
     width: 100%;
-    position: absolute;
+    @include posAbs_left(0);
     object-fit: cover;
     height: 100%;
     top: 0;
@@ -39,8 +38,7 @@ header {
     position: absolute;
     color: #ffffff;
     max-width: 500px;
-    display: flex;
-    flex-direction: column;
+    @include flex_fd(column);
     margin: 162px 0px 0px 0px;
     .head {
         font-size: 11px;
@@ -72,8 +70,7 @@ header {
     position: absolute;
     bottom: 8px;
     height: 120px;
-    display: flex;
-    justify-content: space-between;
+    @include flex_jc(space-between);
     input {
         width: 100%;
         padding: 49px 56px;
@@ -91,9 +88,8 @@ header {
         margin-bottom: -4px;
     }
     .btnPlay {
-        position: absolute;
+        @include posAbs_left(45%);
         top: 100px;
-        left: 45%;
         border-radius: 0px;
         img {
             border-radius: 0px;
@@ -104,8 +100,7 @@ header {
         height: 120px;
         background: #73afba;
         border-radius: 0px 4px 0px 0px;
-        display: flex;
-        justify-content: space-around;
+        @include flex_jc(space-around);
         align-items: center;
         letter-spacing: 2.18182px;
         text-transform: uppercase;

@@ -28,8 +28,7 @@ a{
         .row1foto {
             position: relative;
             .row1foto-fill {
-                position: absolute;
-                left: 40px;
+                @include posAbs_left(40px);
                 display: flex;
                 flex-direction: column;
                 top: 322px;
@@ -54,15 +53,13 @@ a{
                         }
                     }
                     .avatar2{
-                        position: absolute;
-                        left: 32px;
+                        @include posAbs_left(32px);
                         img{
                             position: absolute;
                         }
                     }
                     .avatar3{
-                        position: absolute;
-                        left: 64px;
+                        @include posAbs_left(64px);
                         img{
                             position: absolute;
                         }

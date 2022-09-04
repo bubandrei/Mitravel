@@ -7,13 +7,11 @@
         max-width: $max-width;
         margin: 0 auto;
         padding-top: 124px;
-        display: flex;
-        justify-content: space-between;
+        @include flex_jc(flex, space-between);
         margin-bottom: 120px;
 
         .column {
-            display: flex;
-            flex-direction: column;
+            @include flex_fd(column);
             .title {
                 @include fontsc(12px, #100e0b);
                 font-family: "HelveticaNeue";
@@ -60,8 +58,7 @@
 .footerBottom {
     max-width: $max-width;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+    @include flex_jc(flex, space-between);
     padding: 32px 0px;
     .footText {
         @include fontsc(13px, #959ea6);

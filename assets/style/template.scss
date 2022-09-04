@@ -43,3 +43,15 @@ $margin: 0 auto;
     font-size: $f;
     color: $c;
 }
+@mixin flex_jc($justify) {
+    display: flex;
+    justify-content: $justify;
+}
+@mixin flex_fd($direction) {
+    display: flex;
+    flex-direction: $direction;
+}
+@mixin posAbs_left($left) {
+    position: absolute;
+    left: $left;
+}

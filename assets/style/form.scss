@@ -7,12 +7,10 @@
         width: 100%;
     }
     .blockForm {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
+        @include posAbs_left(135px);
+        @include flex_fd(column);
         max-width: 368px;
         top: 336px;
-        left: 135px;
         .blockTitle {
             @include fontsc(64px, #ffffff);
             line-height: 80px;
@@ -31,8 +29,7 @@
         top: 474px;
         background-color: #ffffff;
         .wrapInput {
-            display: flex;
-            flex-direction: column;
+            @include flex_fd(column);
             margin-top: 40px;
             margin-bottom: 65px;
             width: 501px;

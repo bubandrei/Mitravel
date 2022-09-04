@@ -3,42 +3,37 @@
     margin: $margin;
     position: relative;
     .nameArticle {
+        @include fontsc(64px, #1c2e3d);
         padding-top: 150px;
-        font-size: 64px;
         line-height: 80px;
         text-align: center;
-        color: #1c2e3d;
     }
     .textArticle {
+        @include fontsc(16px, #788692);
         font-family: "SFCompactText";
         max-width: 640px;
-        font-size: 16px;
         line-height: 24px;
         text-align: center;
-        color: #788692;
         text-align: center;
         margin: 0 auto 96px auto;
     }
 }
 picture {
     position: relative;
-    display: flex;
+    @include flex_jc(space-between);
     width: 100%;
-    justify-content: space-between;
     .wrapVideo {
         position: relative;
         .btnPlay {
-            position: absolute;
-            left: 48px;
+            @include posAbs_left(48px);
             top: 39px;
         }
         .bottomTextPlay {
-            position: absolute;
+            @include posAbs_left(40px);
+            @include fontsc(32px, #ffffff);
             left: 40px;
             bottom: 40px;
-            font-size: 32px;
             line-height: 40px;
-            color: #ffffff;
         }
     }
     .sizeImg {

@@ -12,21 +12,18 @@
         line-height: 80px;
     }
     .wrapImg {
-        display: flex;
-        justify-content: space-between;
+        @include flex_jc(space-between);
         margin-top: 96px;
         .withMask {
             position: relative;
             .mask {
-                position: absolute;
-                left: 0;
+                @include posAbs_left(0);
                 top: 0;
             }
             .maskText {
                 @include fontsc(26px, #ffffff);
-                position: absolute;
+                @include posAbs_left(53px);
                 line-height: 31px;
-                left: 53px;
                 bottom: 61px;
                 width: 236px;
             }

@@ -45,7 +45,7 @@ section {
     right: 0;
     top: 0;
     .rightColumn {
-        position: absolute;
+        @include posAbs_left(133px);
         max-width: 368px;
         top: 127px;
         left: 133px;
@@ -56,8 +56,7 @@ section {
         }
         .topics {
             margin-top: 64px;
-            display: flex;
-            flex-direction: column;
+            @include flex_fd(column);
             .topic:not(:last-child) {
                 border-bottom: 1px solid rgba(227, 227, 227, 0.5);
             }
@@ -90,7 +89,7 @@ section {
 }
 
 .backgroundSecond {
-    position: absolute;
+    @include posAbs_left(0);
     width: 100%;
     object-fit: cover;
     height: 100%;
