@@ -38,3 +38,8 @@ $margin: 0 auto;
         text-transform: uppercase;
     }
 }
+
+@mixin fontsc($f, $c) {
+    font-size: $f;
+    color: $c;
+}

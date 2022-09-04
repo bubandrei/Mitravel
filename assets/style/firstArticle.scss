@@ -4,13 +4,12 @@
     height: 1080px;
     position: relative;
     .callArticle {
+        @include fontsc(64px, #1c2e3d);
         padding-top: 150px;
         max-width: 730px;
         font-weight: 900;
         height: 160px;
-        font-size: 64px;
         line-height: 80px;
-        color: #1c2e3d;
     }
     .wrapImg {
         display: flex;
@@ -24,10 +23,9 @@
                 top: 0;
             }
             .maskText {
+                @include fontsc(26px, #ffffff);
                 position: absolute;
-                font-size: 26px;
                 line-height: 31px;
-                color: #ffffff;
                 left: 53px;
                 bottom: 61px;
                 width: 236px;

@@ -20,17 +20,15 @@ section {
         @extend %btn;
     }
     .callFeatured {
+        @include fontsc(48px, #ffffff);
         height: 128px;
-        font-size: 48px;
         line-height: 64px;
-        color: #ffffff;
         margin: 16px 0px;
     }
     .textFeatured {
+        @include fontsc(14px, #ffffff);
         font-family: "SFCompactText";
-        font-size: 14px;
         line-height: 21px;
-        color: #ffffff;
     }
     .btnBottom {
         margin-top: 40px;
@@ -52,10 +50,9 @@ section {
         top: 127px;
         left: 133px;
         .callSecondCol {
+            @include fontsc(64px, #ffffff);
             max-width: 368px;
-            font-size: 64px;
             line-height: 80px;
-            color: #ffffff;
         }
         .topics {
             margin-top: 64px;
@@ -66,7 +63,6 @@ section {
             }
             .topic {
                 display: flex;
-
                 margin-top: 32px;
                 img {
                     max-width: 48px;
@@ -77,9 +73,8 @@ section {
                 .topicWrap {
                     max-width: 288px;
                     .textTopic {
-                        font-size: 18px;
+                        @include fontsc(18px, #ffffff);
                         line-height: 24px;
-                        color: #ffffff;
                         margin-bottom: 8px;
                     }
                     .dateTopic {

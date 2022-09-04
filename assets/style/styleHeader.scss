@@ -3,13 +3,11 @@
     height: 1080px;
     position: relative;
 }
-
 header {
     max-width: $max-width;
     margin: $margin;
     position: relative;
     z-index: 3;
-
     nav {
         display: flex;
         justify-content: space-between;
@@ -18,10 +16,9 @@ header {
             padding-right: 40px;
         }
         .mainTitle {
-            font-size: 22px;
+            @include fontsc(22px, #ffffff);
             line-height: 26px;
             letter-spacing: 2px;
-            color: #ffffff;
             font-weight: 900;
         }
     }
@@ -110,9 +107,8 @@ header {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        color: #ffffff;
-        font-size: 12px;
         letter-spacing: 2.18182px;
         text-transform: uppercase;
+        @include fontsc(12px, #ffffff)
     }
 }

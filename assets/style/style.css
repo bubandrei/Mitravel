@@ -58,9 +58,9 @@ header nav img {
 }
 header nav .mainTitle {
   font-size: 22px;
+  color: #ffffff;
   line-height: 26px;
   letter-spacing: 2px;
-  color: #ffffff;
   font-weight: 900;
 }
 
@@ -151,10 +151,10 @@ header nav .mainTitle {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: #ffffff;
-  font-size: 12px;
   letter-spacing: 2.18182px;
   text-transform: uppercase;
+  font-size: 12px;
+  color: #ffffff;
 }
 
 .container {
@@ -164,13 +164,13 @@ header nav .mainTitle {
   position: relative;
 }
 .container .callArticle {
+  font-size: 64px;
+  color: #1c2e3d;
   padding-top: 150px;
   max-width: 730px;
   font-weight: 900;
   height: 160px;
-  font-size: 64px;
   line-height: 80px;
-  color: #1c2e3d;
 }
 .container .wrapImg {
   display: flex;
@@ -186,10 +186,10 @@ header nav .mainTitle {
   top: 0;
 }
 .container .wrapImg .withMask .maskText {
-  position: absolute;
   font-size: 26px;
-  line-height: 31px;
   color: #ffffff;
+  position: absolute;
+  line-height: 31px;
   left: 53px;
   bottom: 61px;
   width: 236px;
@@ -218,17 +218,17 @@ section {
   border-radius: 24px;
 }
 .leftColumn .callFeatured {
-  height: 128px;
   font-size: 48px;
-  line-height: 64px;
   color: #ffffff;
+  height: 128px;
+  line-height: 64px;
   margin: 16px 0px;
 }
 .leftColumn .textFeatured {
-  font-family: "SFCompactText";
   font-size: 14px;
-  line-height: 21px;
   color: #ffffff;
+  font-family: "SFCompactText";
+  line-height: 21px;
 }
 .leftColumn .btnBottom {
   margin-top: 40px;
@@ -251,10 +251,10 @@ section {
   left: 133px;
 }
 .rightContainer .rightColumn .callSecondCol {
-  max-width: 368px;
   font-size: 64px;
-  line-height: 80px;
   color: #ffffff;
+  max-width: 368px;
+  line-height: 80px;
 }
 .rightContainer .rightColumn .topics {
   margin-top: 64px;
@@ -279,8 +279,8 @@ section {
 }
 .rightContainer .rightColumn .topics .topic .topicWrap .textTopic {
   font-size: 18px;
-  line-height: 24px;
   color: #ffffff;
+  line-height: 24px;
   margin-bottom: 8px;
 }
 .rightContainer .rightColumn .topics .topic .topicWrap .dateTopic {
@@ -378,15 +378,15 @@ picture .sizeImg {
 }
 .wrapForm .blockForm .blockTitle {
   font-size: 64px;
-  line-height: 80px;
   color: #ffffff;
+  line-height: 80px;
 }
 .wrapForm .blockForm .blockText {
+  font-size: 16px;
+  color: #ffffff;
   margin-top: 40px;
   font-family: "SFCompactText";
-  font-size: 16px;
   line-height: 21px;
-  color: #ffffff;
 }
 .wrapForm form {
   max-width: 501px;
@@ -428,19 +428,19 @@ a {
   position: relative;
 }
 .wrap .nameArticle {
-  padding-top: 150px;
   font-size: 64px;
+  color: #1c2e3d;
+  padding-top: 150px;
   line-height: 80px;
   text-align: center;
-  color: #1c2e3d;
 }
 .wrap .textArticle {
+  font-size: 16px;
+  color: #788692;
   font-family: "SFCompactText";
   max-width: 640px;
-  font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: #788692;
   text-align: center;
   margin: 0 auto 96px auto;
 }
@@ -461,16 +461,16 @@ a {
 }
 .wrap picture .row1foto .row1foto-fill .about {
   font-size: 10px;
+  color: #ffffff;
   line-height: 12px;
   letter-spacing: 1.1px;
   text-transform: uppercase;
-  color: #ffffff;
   margin-bottom: 8px;
 }
 .wrap picture .row1foto .row1foto-fill .title {
   font-size: 32px;
-  line-height: 40px;
   color: #ffffff;
+  line-height: 40px;
   margin-bottom: 30px;
 }
 .wrap picture .row1foto .row1foto-fill .avatar {
@@ -519,12 +519,12 @@ a {
   flex-direction: column;
 }
 .footer .containerFooter .column .title {
-  font-family: "HelveticaNeue";
   font-size: 12px;
+  color: #100e0b;
+  font-family: "HelveticaNeue";
   line-height: 14px;
   letter-spacing: 2.15px;
   text-transform: uppercase;
-  color: #100e0b;
   padding-bottom: 32px;
 }
 .footer .containerFooter .column .line {
@@ -533,12 +533,12 @@ a {
   margin-bottom: 32px;
 }
 .footer .containerFooter .column a {
+  font-size: 13px;
+  color: #959ea6;
   text-decoration: none;
   font-family: "SFCompactText";
   font-weight: 400;
-  font-size: 13px;
   line-height: 29px;
-  color: #959ea6;
 }
 .footer .containerFooter .column input {
   width: 304px;
@@ -574,10 +574,10 @@ a {
   padding: 32px 0px;
 }
 .footerBottom .footText {
-  font-family: "SFProText";
   font-size: 13px;
-  line-height: 15px;
   color: #959ea6;
+  font-family: "SFProText";
+  line-height: 15px;
   display: flex;
 }
 .footerBottom .footText .service {

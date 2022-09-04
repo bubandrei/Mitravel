@@ -14,16 +14,14 @@
         top: 336px;
         left: 135px;
         .blockTitle {
-            font-size: 64px;
+            @include fontsc(64px, #ffffff);
             line-height: 80px;
-            color: #ffffff;
         }
         .blockText {
+            @include fontsc(16px, #ffffff);
             margin-top: 40px;
             font-family: "SFCompactText";
-            font-size: 16px;
             line-height: 21px;
-            color: #ffffff;
         }
     }
     form {

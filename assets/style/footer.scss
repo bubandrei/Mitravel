@@ -15,12 +15,11 @@
             display: flex;
             flex-direction: column;
             .title {
+                @include fontsc(12px, #100e0b);
                 font-family: "HelveticaNeue";
-                font-size: 12px;
                 line-height: 14px;
                 letter-spacing: 2.15px;
                 text-transform: uppercase;
-                color: #100e0b;
                 padding-bottom: 32px;
             }
             .line {
@@ -29,12 +28,11 @@
                 margin-bottom: 32px;
             }
             a {
+                @include fontsc(13px, #959ea6);
                 text-decoration: none;
                 font-family: "SFCompactText";
                 font-weight: 400;
-                font-size: 13px;
                 line-height: 29px;
-                color: #959ea6;
             }
             input {
                 width: 304px;
@@ -66,10 +64,9 @@
     justify-content: space-between;
     padding: 32px 0px;
     .footText {
+        @include fontsc(13px, #959ea6);
         font-family: "SFProText";
-        font-size: 13px;
         line-height: 15px;
-        color: #959ea6;
         display: flex;
         .service {
             padding-right: 40px;
