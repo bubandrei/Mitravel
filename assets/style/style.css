@@ -2,6 +2,14 @@
   font-family: "SFProDisplay";
   src: url("/assets/fonts/SFPRODISPLAYBOLD.OTF");
 }
+@font-face {
+  font-family: "SFCompactText";
+  src: url("/assets/fonts/SFCompactText-Light.otf");
+}
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("/assets/fonts/HelveticaNeueCyr-Medium.ttf");
+}
 button {
   padding: 0;
   border: none;
@@ -328,7 +336,8 @@ section {
   color: #1c2e3d;
 }
 .wrap .textArticle {
-  max-width: 634px;
+  font-family: "SFCompactText";
+  max-width: 640px;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
@@ -449,7 +458,8 @@ a {
   color: #1c2e3d;
 }
 .wrap .textArticle {
-  max-width: 634px;
+  font-family: "SFCompactText";
+  max-width: 640px;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
@@ -485,6 +495,29 @@ a {
   line-height: 40px;
   color: #ffffff;
   margin-bottom: 30px;
+}
+.wrap picture .row1foto .row1foto-fill .avatar {
+  position: relative;
+}
+.wrap picture .row1foto .row1foto-fill .avatar .avatar1 {
+  position: absolute;
+}
+.wrap picture .row1foto .row1foto-fill .avatar .avatar1 img {
+  position: absolute;
+}
+.wrap picture .row1foto .row1foto-fill .avatar .avatar2 {
+  position: absolute;
+  left: 32px;
+}
+.wrap picture .row1foto .row1foto-fill .avatar .avatar2 img {
+  position: absolute;
+}
+.wrap picture .row1foto .row1foto-fill .avatar .avatar3 {
+  position: absolute;
+  left: 64px;
+}
+.wrap picture .row1foto .row1foto-fill .avatar .avatar3 img {
+  position: absolute;
 }
 .wrap picture .row1foto2 {
   position: relative;
@@ -524,8 +557,7 @@ a {
 }
 .footer .containerFooter .column a {
   text-decoration: none;
-  font-family: "Arial";
-  font-style: normal;
+  font-family: "SFCompactText";
   font-weight: 400;
   font-size: 13px;
   line-height: 29px;
