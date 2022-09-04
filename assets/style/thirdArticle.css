@@ -1,0 +1,49 @@
+.wrap {
+  max-width: 1570px;
+  margin: 0 auto;
+  position: relative;
+}
+.wrap .nameArticle {
+  padding-top: 150px;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+  color: #1c2e3d;
+}
+.wrap .textArticle {
+  font-family: "SFCompactText";
+  max-width: 640px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #788692;
+  text-align: center;
+  margin: 0 auto 96px auto;
+}
+
+picture {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+picture .wrapVideo {
+  position: relative;
+}
+picture .wrapVideo .btnPlay {
+  position: absolute;
+  left: 48px;
+  top: 39px;
+}
+picture .wrapVideo .bottomTextPlay {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  font-size: 32px;
+  line-height: 40px;
+  color: #ffffff;
+}
+picture .sizeImg {
+  max-height: 550px;
+  align-self: center;
+}/*# sourceMappingURL=thirdArticle.css.map */

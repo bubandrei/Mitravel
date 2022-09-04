@@ -1,27 +1,4 @@
-@font-face {
-    font-family: 'SFProDisplay';
-    src: url("/assets/fonts/SFPRODISPLAYBOLD.OTF");
-}
-@font-face {
-    font-family: 'SFCompactText';
-    src: url("/assets/fonts/SFCompactText-Light.otf");
-}
-@font-face {
-    font-family: 'HelveticaNeue';
-    src: url("/assets/fonts/HelveticaNeueCyr-Medium.ttf");
-}
-button {
-    padding: 0;
-    border: none;
-    font: inherit;
-    color: inherit;
-    background-color: transparent;
-    cursor: pointer;
-  }
-
-body{
-    font-family: 'SFProDisplay', sans-serif;
-}
+@import 'template.scss';
 @import 'styleHeader.scss';
 @import 'firstArticle.scss';
 @import 'secondArticle.scss';

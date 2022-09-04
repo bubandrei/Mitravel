@@ -23,6 +23,19 @@ body {
   font-family: "SFProDisplay", sans-serif;
 }
 
+.footer .containerFooter .column .btn, .wrapForm form .btnForm, .leftColumn .btnBottom, .leftColumn .btnTop, .wrapMainText .btn {
+  display: flex;
+  justify-content: center;
+}
+.footer .containerFooter .column .btn button, .wrapForm form .btnForm button, .leftColumn .btnBottom button, .leftColumn .btnTop button, .wrapMainText .btn button {
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 2.18182px;
+  text-align: center;
+  vertical-align: baseline;
+  text-transform: uppercase;
+}
+
 .container {
   max-width: 1570px;
   height: 1080px;
@@ -95,15 +108,6 @@ header nav .mainTitle {
   height: 80px;
   background: #e8594e;
   border-radius: 8px;
-  display: flex;
-  justify-content: center;
-}
-.wrapMainText .btn button {
-  color: #ffffff;
-  font-size: 12px;
-  letter-spacing: 2.18182px;
-  text-align: center;
-  vertical-align: baseline;
 }
 
 .bottomHead {
@@ -212,15 +216,6 @@ section {
   height: 48px;
   background: #e8594e;
   border-radius: 24px;
-  display: flex;
-  justify-content: center;
-}
-.leftColumn .btnTop .btnTopText {
-  font-size: 11px;
-  letter-spacing: 2px;
-  color: #ffffff;
-  text-align: center;
-  vertical-align: baseline;
 }
 .leftColumn .callFeatured {
   height: 128px;
@@ -241,15 +236,6 @@ section {
   height: 80px;
   background: #73afba;
   border-radius: 8px;
-  display: flex;
-  justify-content: center;
-}
-.leftColumn .btnBottom .btnBottomText {
-  color: #ffffff;
-  font-size: 12px;
-  letter-spacing: 2.18182px;
-  text-align: center;
-  vertical-align: baseline;
 }
 
 .rightContainer {
@@ -430,15 +416,6 @@ picture .sizeImg {
   height: 80px;
   background: #73afba;
   border-radius: 0 0 8px 8px;
-  display: flex;
-  justify-content: center;
-}
-.wrapForm form .btnForm button {
-  color: #ffffff;
-  font-size: 12px;
-  letter-spacing: 2.18182px;
-  text-align: center;
-  vertical-align: baseline;
 }
 
 a {
@@ -587,16 +564,6 @@ a {
   height: 80px;
   background: #73afba;
   border-radius: 8px;
-  display: flex;
-  justify-content: center;
-}
-.footer .containerFooter .column .btn button {
-  color: #ffffff;
-  font-size: 12px;
-  letter-spacing: 2.18182px;
-  text-align: center;
-  vertical-align: baseline;
-  text-transform: uppercase;
 }
 
 .footerBottom {

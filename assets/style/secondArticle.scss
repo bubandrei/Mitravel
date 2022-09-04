@@ -1,6 +1,3 @@
-$max-width: 1570px;
-$margin: 0 auto;
-
 section {
     position: relative;
     height: 1080px;
@@ -20,15 +17,7 @@ section {
         height: 48px;
         background: #e8594e;
         border-radius: 24px;
-        display: flex;
-        justify-content: center;
-        .btnTopText {
-            font-size: 11px;
-            letter-spacing: 2px;
-            color: #ffffff;
-            text-align: center;
-            vertical-align: baseline;
-        }
+        @extend %btn;
     }
     .callFeatured {
         height: 128px;
@@ -49,15 +38,7 @@ section {
         height: 80px;
         background: #73afba;
         border-radius: 8px;
-        display: flex;
-        justify-content: center;
-        .btnBottomText {
-            color: #ffffff;
-            font-size: 12px;
-            letter-spacing: 2.18182px;
-            text-align: center;
-            vertical-align: baseline;
-        }
+        @extend %btn;
     }
 }
 .rightContainer {
@@ -80,7 +61,7 @@ section {
             margin-top: 64px;
             display: flex;
             flex-direction: column;
-            .topic:not(:last-child){
+            .topic:not(:last-child) {
                 border-bottom: 1px solid rgba(227, 227, 227, 0.5);
             }
             .topic {

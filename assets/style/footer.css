@@ -1,0 +1,93 @@
+.footer {
+  height: 498px;
+  margin-top: 140px;
+  border-top: 1px solid #b3b3b3;
+  border-bottom: 1px solid #b3b3b3;
+}
+.footer .containerFooter {
+  max-width: 1570px;
+  margin: 0 auto;
+  padding-top: 124px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+.footer .containerFooter .column {
+  display: flex;
+  flex-direction: column;
+}
+.footer .containerFooter .column .title {
+  font-family: "HelveticaNeue";
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2.15px;
+  text-transform: uppercase;
+  color: #100e0b;
+  padding-bottom: 32px;
+}
+.footer .containerFooter .column .line {
+  border-bottom: 1px solid #57a773;
+  width: 48px;
+  margin-bottom: 32px;
+}
+.footer .containerFooter .column a {
+  text-decoration: none;
+  font-family: "SFCompactText";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 29px;
+  color: #959ea6;
+}
+.footer .containerFooter .column input {
+  width: 304px;
+  height: 64px;
+  padding: 0 32px;
+  margin-bottom: 16px;
+  font-size: 17px;
+  border-radius: 8px;
+  background: #ffffff;
+  border: 1px solid rgba(179, 179, 179, 0.5);
+}
+.footer .containerFooter .column input::-moz-placeholder {
+  background: url(assets/style/user.svg) no-repeat right;
+}
+.footer .containerFooter .column input:-ms-input-placeholder {
+  background: url(assets/style/user.svg) no-repeat right;
+}
+.footer .containerFooter .column input::placeholder {
+  background: url(assets/style/user.svg) no-repeat right;
+}
+.footer .containerFooter .column .btn {
+  max-width: 376px;
+  height: 80px;
+  background: #73afba;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+}
+.footer .containerFooter .column .btn button {
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 2.18182px;
+  text-align: center;
+  vertical-align: baseline;
+  text-transform: uppercase;
+}
+
+.footerBottom {
+  max-width: 1570px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0px;
+}
+.footerBottom .footText {
+  font-family: "SFProText";
+  font-size: 13px;
+  line-height: 15px;
+  color: #959ea6;
+  display: flex;
+}
+.footerBottom .footText .service {
+  padding-right: 40px;
+}/*# sourceMappingURL=footer.css.map */

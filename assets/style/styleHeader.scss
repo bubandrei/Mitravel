@@ -1,6 +1,3 @@
-$max-width: 1570px;
-$margin: 0 auto;
-
 .container {
     max-width: $max-width;
     height: 1080px;
@@ -70,15 +67,7 @@ header {
         height: 80px;
         background: #e8594e;
         border-radius: 8px;
-        display: flex;
-        justify-content: center;
-        button {
-            color: #ffffff;
-            font-size: 12px;
-            letter-spacing: 2.18182px;
-            text-align: center;
-            vertical-align: baseline;
-        }
+        @extend %btn;
     }
 }
 .bottomHead {

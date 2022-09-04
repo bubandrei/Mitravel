@@ -1,0 +1,37 @@
+.container {
+  max-width: 1570px;
+  margin: 0 auto;
+  height: 1080px;
+  position: relative;
+}
+.container .callArticle {
+  padding-top: 150px;
+  max-width: 730px;
+  font-weight: 900;
+  height: 160px;
+  font-size: 64px;
+  line-height: 80px;
+  color: #1c2e3d;
+}
+.container .wrapImg {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 96px;
+}
+.container .wrapImg .withMask {
+  position: relative;
+}
+.container .wrapImg .withMask .mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.container .wrapImg .withMask .maskText {
+  position: absolute;
+  font-size: 26px;
+  line-height: 31px;
+  color: #ffffff;
+  left: 53px;
+  bottom: 61px;
+  width: 236px;
+}/*# sourceMappingURL=firstArticle.css.map */
