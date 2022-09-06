@@ -4,10 +4,6 @@
     position: relative;
 }
 header {
-    // max-width: $max-width;
-    // margin: $margin;
-    // position: relative;
-    // z-index: 3;
     nav {
         @include flex_jc(space-between);
         padding-top: 53px;
