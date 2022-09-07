@@ -3,6 +3,7 @@
     height: 1080px;
     position: relative;
 }
+//на всю ширину блока
 header {
     nav {
         @include flex_jc(space-between);
