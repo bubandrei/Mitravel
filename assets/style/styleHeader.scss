@@ -4,6 +4,7 @@
     position: relative;
 }
 //на всю ширину блока
+//не работает background
 header {
     nav {
         @include flex_jc(space-between);
