@@ -7,7 +7,7 @@
         max-width: $max-width;
         margin: 0 auto;
         padding-top: 124px;
-        @include flex_jc(flex, space-between);
+        @include flex_jc(space-between);
         margin-bottom: 120px;
 
         .column {
@@ -43,7 +43,7 @@
                 border: 1px solid rgba(179, 179, 179, 0.5);
             }
             input::placeholder {
-                background: url(assets/style/user.svg) no-repeat right;
+                background: url(user.svg) no-repeat right;
             }
             .btn {
                 max-width: 376px;
@@ -58,7 +58,7 @@
 .footerBottom {
     max-width: $max-width;
     margin: 0 auto;
-    @include flex_jc(flex, space-between);
+    @include flex_jc(space-between);
     padding: 32px 0px;
     .footText {
         @include fontsc(13px, #959ea6);
