@@ -1,0 +1,32 @@
+.container {
+    max-width: $max-width;
+    margin: $margin;
+    height: 1080px;
+    position: relative;
+    .callArticle {
+        @include fontsc(64px, #1c2e3d);
+        padding-top: 150px;
+        max-width: 730px;
+        font-weight: 900;
+        height: 160px;
+        line-height: 80px;
+    }
+    .wrapImg {
+        @include flex_jc(space-between);
+        margin-top: 96px;
+        .withMask {
+            position: relative;
+            .mask {
+                @include posAbs_left(0);
+                top: 0;
+            }
+            .maskText {
+                @include fontsc(26px, #ffffff);
+                @include posAbs_left(53px);
+                line-height: 31px;
+                bottom: 61px;
+                width: 236px;
+            }
+        }
+    }
+}
