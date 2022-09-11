@@ -55,15 +55,15 @@ body {
   position: relative;
 }
 
-header nav {
+header .navbar {
   display: flex;
   justify-content: space-between;
   padding-top: 53px;
 }
-header nav img {
+header .navbar img {
   padding-right: 40px;
 }
-header nav .mainTitle {
+header .navbar .mainTitle {
   font-size: 22px;
   color: #ffffff;
   line-height: 26px;
@@ -177,44 +177,6 @@ header nav .mainTitle {
   text-transform: uppercase;
 }
 
-.container {
-  max-width: 1570px;
-  margin: 0 auto;
-  height: 1080px;
-  position: relative;
-}
-.container .callArticle {
-  font-size: 64px;
-  color: #1c2e3d;
-  padding-top: 150px;
-  max-width: 730px;
-  font-weight: 900;
-  height: 160px;
-  line-height: 80px;
-}
-.container .wrapImg {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 96px;
-}
-.container .wrapImg .withMask {
-  position: relative;
-}
-.container .wrapImg .withMask .mask {
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-.container .wrapImg .withMask .maskText {
-  font-size: 26px;
-  color: #ffffff;
-  position: absolute;
-  left: 53px;
-  line-height: 31px;
-  bottom: 61px;
-  width: 236px;
-}
-
 .footer .containerFooter .column .btn, .wrapForm form .btnForm, .leftColumn .btnBottom, .leftColumn .btnTop, .wrapMainText .btn {
   display: flex;
   justify-content: center;
@@ -233,7 +195,7 @@ section {
   height: 1080px;
 }
 
-.container {
+.container-main {
   max-width: 1570px;
   height: 1080px;
   position: relative;

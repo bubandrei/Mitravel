@@ -17,15 +17,15 @@
   position: relative;
 }
 
-header nav {
+header .navbar {
   display: flex;
   justify-content: space-between;
   padding-top: 53px;
 }
-header nav img {
+header .navbar img {
   padding-right: 40px;
 }
-header nav .mainTitle {
+header .navbar .mainTitle {
   font-size: 22px;
   color: #ffffff;
   line-height: 26px;

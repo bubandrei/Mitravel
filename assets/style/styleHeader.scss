@@ -33,14 +33,14 @@ $margin: 0 auto;
 
 
 
-.container {
+.container{
     max-width: $max-width;
     height: 1080px;
     position: relative;
 }
 
 header {
-    nav {
+    .navbar {
         @include flex_jc(space-between);
         padding-top: 53px;
         img {
