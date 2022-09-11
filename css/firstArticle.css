@@ -1,1 +1,24 @@
-/*# sourceMappingURL=firstArticle.css.map */
+.text-h1 {
+  font-size: 64px;
+  color: #1c2e3d;
+  padding: 150px 0px 96px 0px;
+  max-width: 730px;
+}
+
+a.col {
+  position: relative;
+}
+a.col .inner:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #73AFBA;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+a.col .inner:hover:before {
+  opacity: 0.9;
+}/*# sourceMappingURL=firstArticle.css.map */
