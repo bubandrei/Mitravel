@@ -82,7 +82,7 @@ header .navbar .mainTitle {
 .bottomHead {
   width: 100%;
   position: absolute;
-  bottom: 8px;
+  bottom: 0;
   height: 120px;
   display: flex;
   justify-content: space-between;
@@ -101,7 +101,6 @@ header .navbar .mainTitle {
 }
 .bottomHead img {
   border-radius: 8px 8px 0px 0px;
-  margin-bottom: -4px;
 }
 .bottomHead .btnPlay {
   position: absolute;
