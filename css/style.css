@@ -36,6 +36,19 @@ body {
   text-transform: uppercase;
 }
 
+.footer .containerFooter .column .btn, .wrapForm form .btnForm, .leftColumn .btnBottom, .leftColumn .btnTop, .wrapMainText .btn {
+  display: flex;
+  justify-content: center;
+}
+.footer .containerFooter .column .btn button, .wrapForm form .btnForm button, .leftColumn .btnBottom button, .leftColumn .btnTop button, .wrapMainText .btn button {
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 2.18182px;
+  text-align: center;
+  vertical-align: baseline;
+  text-transform: uppercase;
+}
+
 .container {
   max-width: 1570px;
   height: 1080px;
@@ -151,6 +164,19 @@ header nav .mainTitle {
   color: #ffffff;
 }
 
+.footer .containerFooter .column .btn, .wrapForm form .btnForm, .leftColumn .btnBottom, .leftColumn .btnTop, .wrapMainText .btn {
+  display: flex;
+  justify-content: center;
+}
+.footer .containerFooter .column .btn button, .wrapForm form .btnForm button, .leftColumn .btnBottom button, .leftColumn .btnTop button, .wrapMainText .btn button {
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 2.18182px;
+  text-align: center;
+  vertical-align: baseline;
+  text-transform: uppercase;
+}
+
 .container {
   max-width: 1570px;
   margin: 0 auto;
@@ -187,6 +213,19 @@ header nav .mainTitle {
   line-height: 31px;
   bottom: 61px;
   width: 236px;
+}
+
+.footer .containerFooter .column .btn, .wrapForm form .btnForm, .leftColumn .btnBottom, .leftColumn .btnTop, .wrapMainText .btn {
+  display: flex;
+  justify-content: center;
+}
+.footer .containerFooter .column .btn button, .wrapForm form .btnForm button, .leftColumn .btnBottom button, .leftColumn .btnTop button, .wrapMainText .btn button {
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 2.18182px;
+  text-align: center;
+  vertical-align: baseline;
+  text-transform: uppercase;
 }
 
 section {
@@ -304,6 +343,19 @@ section {
   right: 0;
 }
 
+.footer .containerFooter .column .btn, .wrapForm form .btnForm, .wrapMainText .btn, .leftColumn .btnTop, .leftColumn .btnBottom {
+  display: flex;
+  justify-content: center;
+}
+.footer .containerFooter .column .btn button, .wrapForm form .btnForm button, .wrapMainText .btn button, .leftColumn .btnTop button, .leftColumn .btnBottom button {
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 2.18182px;
+  text-align: center;
+  vertical-align: baseline;
+  text-transform: uppercase;
+}
+
 .wrap {
   max-width: 1570px;
   margin: 0 auto;
@@ -353,6 +405,19 @@ picture .wrapVideo .bottomTextPlay {
 picture .sizeImg {
   max-height: 550px;
   align-self: center;
+}
+
+.footer .containerFooter .column .btn, .wrapForm form .btnForm, .wrapMainText .btn, .leftColumn .btnTop, .leftColumn .btnBottom {
+  display: flex;
+  justify-content: center;
+}
+.footer .containerFooter .column .btn button, .wrapForm form .btnForm button, .wrapMainText .btn button, .leftColumn .btnTop button, .leftColumn .btnBottom button {
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 2.18182px;
+  text-align: center;
+  vertical-align: baseline;
+  text-transform: uppercase;
 }
 
 .wrapForm {
@@ -412,6 +477,19 @@ picture .sizeImg {
   height: 80px;
   background: #73afba;
   border-radius: 0 0 8px 8px;
+}
+
+.footer .containerFooter .column .btn, .wrapMainText .btn, .leftColumn .btnTop, .leftColumn .btnBottom, .wrapForm form .btnForm {
+  display: flex;
+  justify-content: center;
+}
+.footer .containerFooter .column .btn button, .wrapMainText .btn button, .leftColumn .btnTop button, .leftColumn .btnBottom button, .wrapForm form .btnForm button {
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 2.18182px;
+  text-align: center;
+  vertical-align: baseline;
+  text-transform: uppercase;
 }
 
 a {
@@ -496,6 +574,19 @@ a {
   position: relative;
 }
 
+.footer .containerFooter .column .btn, .wrapMainText .btn, .leftColumn .btnTop, .leftColumn .btnBottom, .wrapForm form .btnForm {
+  display: flex;
+  justify-content: center;
+}
+.footer .containerFooter .column .btn button, .wrapMainText .btn button, .leftColumn .btnTop button, .leftColumn .btnBottom button, .wrapForm form .btnForm button {
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 2.18182px;
+  text-align: center;
+  vertical-align: baseline;
+  text-transform: uppercase;
+}
+
 .footer {
   height: 498px;
   margin-top: 140px;
@@ -545,9 +636,6 @@ a {
   border-radius: 8px;
   background: #ffffff;
   border: 1px solid rgba(179, 179, 179, 0.5);
-}
-.footer .containerFooter .column input::placeholder {
-  background: url(/assets/images/user.svg) no-repeat right;
 }
 .footer .containerFooter .column .btn {
   max-width: 376px;
