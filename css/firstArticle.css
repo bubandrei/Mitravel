@@ -5,30 +5,36 @@
   max-width: 730px;
 }
 
-a.col {
+.row a.col {
   position: relative;
 }
-a.col .item-inner img {
+.row a.col .item-inner {
+  height: 100%;
+  overflow: hidden;
+}
+.row a.col .item-inner img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: all 0.4 ease;
 }
-a.col .item-inner:before {
+.row a.col .item-inner:before {
   content: "";
   position: absolute;
-  left: 12px;
+  left: 0;
   top: 0;
-  width: 94%;
+  width: 100%;
   height: 100%;
   background: #73AFBA;
   border-radius: 5px;
   opacity: 0;
   transition: all 0.4s ease;
+  z-index: 10;
 }
-a.col .item-inner:hover:before {
+.row a.col .item-inner:hover:before {
   opacity: 0.9;
 }
-a.col .item-text {
+.row a.col .item-inner .item-text {
   position: absolute;
   max-width: 230px;
   left: 50px;
@@ -37,12 +43,16 @@ a.col .item-text {
   font-size: 24px;
   color: #FFFFFF;
   overflow: hidden;
+  z-index: 20;
 }
-a.col .item-text span {
+.row a.col .item-inner .item-text span {
   display: block;
   transform: translateY(70px);
   transition: transform 0.3s ease;
 }
-a.col .item-inner:hover .item-text span {
+.row a.col .item-inner:hover img {
+  transform: scale(1.05);
+}
+.row a.col .item-inner:hover .item-text span {
   transform: translateY(0);
 }/*# sourceMappingURL=firstArticle.css.map */
