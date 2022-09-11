@@ -1,0 +1,81 @@
+a {
+  text-decoration: none;
+}
+
+.wrap {
+  max-width: 1570px;
+  margin: 0 auto;
+  position: relative;
+}
+.wrap .nameArticle {
+  font-size: 64px;
+  color: #1c2e3d;
+  padding-top: 150px;
+  line-height: 80px;
+  text-align: center;
+}
+.wrap .textArticle {
+  font-size: 16px;
+  color: #788692;
+  font-family: "SFCompactText";
+  max-width: 640px;
+  line-height: 24px;
+  text-align: center;
+  text-align: center;
+  margin: 0 auto 96px auto;
+}
+.wrap picture {
+  display: flex;
+  width: 100%;
+  margin-bottom: 32px;
+}
+.wrap picture .row1foto {
+  position: relative;
+}
+.wrap picture .row1foto .row1foto-fill {
+  position: absolute;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  top: 322px;
+}
+.wrap picture .row1foto .row1foto-fill .about {
+  font-size: 10px;
+  color: #ffffff;
+  line-height: 12px;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.wrap picture .row1foto .row1foto-fill .title {
+  font-size: 32px;
+  color: #ffffff;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+.wrap picture .row1foto .row1foto-fill .avatar {
+  position: relative;
+}
+.wrap picture .row1foto .row1foto-fill .avatar .avatar1 {
+  position: absolute;
+}
+.wrap picture .row1foto .row1foto-fill .avatar .avatar1 img {
+  position: absolute;
+}
+.wrap picture .row1foto .row1foto-fill .avatar .avatar2 {
+  position: absolute;
+  left: 32px;
+}
+.wrap picture .row1foto .row1foto-fill .avatar .avatar2 img {
+  position: absolute;
+}
+.wrap picture .row1foto .row1foto-fill .avatar .avatar3 {
+  position: absolute;
+  left: 64px;
+}
+.wrap picture .row1foto .row1foto-fill .avatar .avatar3 img {
+  position: absolute;
+}
+.wrap picture .row1foto2 {
+  position: relative;
+}/*# sourceMappingURL=inspirations.css.map */

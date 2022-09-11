@@ -1,3 +1,37 @@
+$max-width: 1570px;
+$margin: 0 auto;
+%btn {
+    display: flex;
+    justify-content: center;
+    button {
+        color: #ffffff;
+        font-size: 12px;
+        letter-spacing: 2.18182px;
+        text-align: center;
+        vertical-align: baseline;
+        text-transform: uppercase;
+    }
+}
+
+@mixin fontsc($f, $c) {
+    font-size: $f;
+    color: $c;
+}
+@mixin flex_jc($justify) {
+    display: flex;
+    justify-content: $justify;
+}
+@mixin flex_fd($direction) {
+    display: flex;
+    flex-direction: $direction;
+}
+@mixin posAbs_left($left) {
+    position: absolute;
+    left: $left;
+}
+
+
+
 .container {
     max-width: $max-width;
     margin: $margin;
