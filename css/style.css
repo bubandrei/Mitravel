@@ -383,27 +383,14 @@ section {
   text-transform: uppercase;
 }
 
-.wrap {
-  max-width: 1570px;
-  margin: 0 auto;
-  position: relative;
+.wrap_thirdArticle {
+  padding: 0;
 }
-.wrap .nameArticle {
-  font-size: 64px;
-  color: #1c2e3d;
-  padding-top: 150px;
-  line-height: 80px;
-  text-align: center;
+.wrap_thirdArticle .row {
+  flex-wrap: nowrap;
 }
-.wrap .textArticle {
-  font-size: 16px;
-  color: #788692;
-  font-family: "SFCompactText";
-  max-width: 640px;
-  line-height: 24px;
-  text-align: center;
-  text-align: center;
-  margin: 0 auto 96px auto;
+.wrap_thirdArticle .row .item_img_width {
+  max-width: 100%;
 }
 
 picture {

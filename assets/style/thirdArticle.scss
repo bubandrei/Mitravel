@@ -1,8 +1,10 @@
 $max-width: 1570px;
 $margin: 0 auto;
+
 %btn {
     display: flex;
     justify-content: center;
+
     button {
         color: #ffffff;
         font-size: 12px;
@@ -17,51 +19,91 @@ $margin: 0 auto;
     font-size: $f;
     color: $c;
 }
+
 @mixin flex_jc($justify) {
     display: flex;
     justify-content: $justify;
 }
+
 @mixin flex_fd($direction) {
     display: flex;
     flex-direction: $direction;
 }
+
 @mixin posAbs_left($left) {
     position: absolute;
     left: $left;
 }
 
+// .wrap_thirdArticle {
+//     padding: 0;
 
+//     .item_img {
+//         align-self: center;
 
-.wrap {
-    max-width: $max-width;
-    margin: $margin;
-    position: relative;
-    .nameArticle {
-        @include fontsc(64px, #1c2e3d);
-        padding-top: 150px;
-        line-height: 80px;
-        text-align: center;
+//         .item_img_center {
+//             max-width: 100%;
+//         }
+//     }
+
+// }
+.wrap_thirdArticle{
+    padding: 0;
+    .row{
+        flex-wrap: nowrap;
+        .item_img_width {
+            max-width: 100%;
+        }
     }
-    .textArticle {
-        @include fontsc(16px, #788692);
-        font-family: "SFCompactText";
-        max-width: 640px;
-        line-height: 24px;
-        text-align: center;
-        text-align: center;
-        margin: 0 auto 96px auto;
-    }
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .wrap {
+//     max-width: $max-width;
+//     margin: $margin;
+//     position: relative;
+//     .nameArticle {
+//         @include fontsc(64px, #1c2e3d);
+//         padding-top: 150px;
+//         line-height: 80px;
+//         text-align: center;
+//     }
+//     .textArticle {
+//         @include fontsc(16px, #788692);
+//         font-family: "SFCompactText";
+//         max-width: 640px;
+//         line-height: 24px;
+//         text-align: center;
+//         text-align: center;
+//         margin: 0 auto 96px auto;
+//     }
+// }
 picture {
     position: relative;
     @include flex_jc(space-between);
     width: 100%;
+
     .wrapVideo {
         position: relative;
+
         .btnPlay {
             @include posAbs_left(48px);
             top: 39px;
         }
+
         .bottomTextPlay {
             @include posAbs_left(40px);
             @include fontsc(32px, #ffffff);
@@ -70,6 +112,7 @@ picture {
             line-height: 40px;
         }
     }
+
     .sizeImg {
         max-height: 550px;
         align-self: center;
