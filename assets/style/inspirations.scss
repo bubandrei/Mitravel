@@ -33,77 +33,77 @@ $margin: 0 auto;
 
 
 
-a{
-    text-decoration: none;
-}
+// a{
+//     text-decoration: none;
+// }
 
-.wrap {
-    max-width: $max-width;
-    margin: $margin;
-    position: relative;
-    .nameArticle {
-        @include fontsc(64px, #1c2e3d);
-        padding-top: 150px;
-        line-height: 80px;
-        text-align: center;
-    }
-    .textArticle {
-        @include fontsc(16px, #788692);
-        font-family: "SFCompactText";
-        max-width: 640px;
-        line-height: 24px;
-        text-align: center;
-        text-align: center;
-        margin: 0 auto 96px auto;
-    }
-    picture {
-        display: flex;
-        width: 100%;
-        margin-bottom: 32px;
-        .row1foto {
-            position: relative;
-            .row1foto-fill {
-                @include posAbs_left(40px);
-                display: flex;
-                flex-direction: column;
-                top: 322px;
-                .about {
-                    @include fontsc(10px, #ffffff);
-                    line-height: 12px;
-                    letter-spacing: 1.1px;
-                    text-transform: uppercase;
-                    margin-bottom: 8px;
-                }
-                .title {
-                    @include fontsc(32px, #ffffff);
-                    line-height: 40px;
-                    margin-bottom: 30px;
-                }
-                .avatar{
-                    position: relative;
-                    .avatar1{
-                        position: absolute;
-                        img{
-                            position: absolute;
-                        }
-                    }
-                    .avatar2{
-                        @include posAbs_left(32px);
-                        img{
-                            position: absolute;
-                        }
-                    }
-                    .avatar3{
-                        @include posAbs_left(64px);
-                        img{
-                            position: absolute;
-                        }
-                    }
-                }
-            }
-        }
-        .row1foto2 {
-            position: relative;
-        }
-    }
-}
+// .wrap {
+//     max-width: $max-width;
+//     margin: $margin;
+//     position: relative;
+//     .nameArticle {
+//         @include fontsc(64px, #1c2e3d);
+//         padding-top: 150px;
+//         line-height: 80px;
+//         text-align: center;
+//     }
+//     .textArticle {
+//         @include fontsc(16px, #788692);
+//         font-family: "SFCompactText";
+//         max-width: 640px;
+//         line-height: 24px;
+//         text-align: center;
+//         text-align: center;
+//         margin: 0 auto 96px auto;
+//     }
+//     picture {
+//         display: flex;
+//         width: 100%;
+//         margin-bottom: 32px;
+//         .row1foto {
+//             position: relative;
+//             .row1foto-fill {
+//                 @include posAbs_left(40px);
+//                 display: flex;
+//                 flex-direction: column;
+//                 top: 322px;
+//                 .about {
+//                     @include fontsc(10px, #ffffff);
+//                     line-height: 12px;
+//                     letter-spacing: 1.1px;
+//                     text-transform: uppercase;
+//                     margin-bottom: 8px;
+//                 }
+//                 .title {
+//                     @include fontsc(32px, #ffffff);
+//                     line-height: 40px;
+//                     margin-bottom: 30px;
+//                 }
+//                 .avatar{
+//                     position: relative;
+//                     .avatar1{
+//                         position: absolute;
+//                         img{
+//                             position: absolute;
+//                         }
+//                     }
+//                     .avatar2{
+//                         @include posAbs_left(32px);
+//                         img{
+//                             position: absolute;
+//                         }
+//                     }
+//                     .avatar3{
+//                         @include posAbs_left(64px);
+//                         img{
+//                             position: absolute;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//         .row1foto2 {
+//             position: relative;
+//         }
+//     }
+// }

@@ -443,20 +443,20 @@ section {
 .wrapForm .blockForm .blockTitle {
   font-size: 64px;
   color: #ffffff;
-  line-height: 80px;
+  line-height: 122%;
 }
 .wrapForm .blockForm .blockText {
   font-size: 16px;
   color: #ffffff;
   margin-top: 40px;
   font-family: "SFCompactText";
-  line-height: 21px;
+  line-height: 130%;
 }
 .wrapForm form {
   max-width: 501px;
   position: absolute;
   right: 133px;
-  top: 474px;
+  top: 452px;
   background-color: #ffffff;
 }
 .wrapForm form .wrapInput {
