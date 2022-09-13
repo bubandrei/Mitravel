@@ -391,7 +391,7 @@ section {
   flex-wrap: nowrap;
 }
 .wrap_thirdArticle .row .item_img_width {
-  max-width: 100%;
+  width: 100%;
 }
 .wrap_thirdArticle .row .position_Text {
   position: relative;
@@ -403,6 +403,11 @@ section {
   color: #ffffff;
   bottom: 5%;
   line-height: 40px;
+}
+.wrap_thirdArticle .row .position_Text .btnPlay {
+  position: absolute;
+  left: 48px;
+  top: 39px;
 }
 
 .footer .containerFooter .column .btn, .wrapForm form .btnForm, .wrapMainText .btn, .leftColumn .btnTop, .leftColumn .btnBottom {

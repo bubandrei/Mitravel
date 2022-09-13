@@ -55,7 +55,7 @@ $margin: 0 auto;
         flex-wrap: nowrap;
 
         .item_img_width {
-            max-width: 100%;
+            width: 100%;
 
         }
 
@@ -68,24 +68,16 @@ $margin: 0 auto;
                 bottom: 5%;
                 line-height: 40px;
             }
+
+            .btnPlay {
+                @include posAbs_left(48px);
+                top: 39px;
+            }
         }
 
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // .wrap {
 //     max-width: $max-width;
