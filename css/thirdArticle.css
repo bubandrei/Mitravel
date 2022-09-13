@@ -1,5 +1,6 @@
 .wrap_thirdArticle {
   padding: 0;
+  margin-bottom: 150px;
 }
 .wrap_thirdArticle .row {
   flex-wrap: nowrap;
@@ -7,31 +8,14 @@
 .wrap_thirdArticle .row .item_img_width {
   max-width: 100%;
 }
-
-picture {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-picture .wrapVideo {
+.wrap_thirdArticle .row .position_Text {
   position: relative;
 }
-picture .wrapVideo .btnPlay {
+.wrap_thirdArticle .row .position_Text .bottomTextPlay {
   position: absolute;
-  left: 48px;
-  top: 39px;
-}
-picture .wrapVideo .bottomTextPlay {
-  position: absolute;
-  left: 40px;
+  left: 5%;
   font-size: 32px;
   color: #ffffff;
-  left: 40px;
-  bottom: 40px;
+  bottom: 5%;
   line-height: 40px;
-}
-picture .sizeImg {
-  max-height: 550px;
-  align-self: center;
 }/*# sourceMappingURL=thirdArticle.css.map */
