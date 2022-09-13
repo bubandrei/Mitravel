@@ -18,8 +18,7 @@
 .row a.col .item-inner img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transition: all 0.4 ease;
 }
 .row a.col .item-inner:before {
