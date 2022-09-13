@@ -520,6 +520,7 @@ section {
 
 .inspiration_wrap {
   height: 100%;
+  padding: 0;
 }
 
 .footer .containerFooter .column .btn, .wrapMainText .btn, .leftColumn .btnTop, .leftColumn .btnBottom, .wrapForm form .btnForm {
