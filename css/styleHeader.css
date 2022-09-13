@@ -37,7 +37,8 @@ header .navbar .mainTitle {
   width: 100%;
   position: absolute;
   left: 0;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 100%;
   top: 0;
   left: 0;
