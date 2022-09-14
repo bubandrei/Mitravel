@@ -75,7 +75,8 @@ header .navbar .mainTitle {
   width: 100%;
   position: absolute;
   left: 0;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 100%;
   top: 0;
   left: 0;
@@ -183,6 +184,9 @@ header .navbar .mainTitle {
   max-width: 730px;
 }
 
+.row {
+  margin-right: 0;
+}
 .row a.col {
   position: relative;
   margin: 10px;
@@ -196,7 +200,8 @@ header .navbar .mainTitle {
 .row a.col .item-inner img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   transition: all 0.4 ease;
 }
 .row a.col .item-inner:before {
@@ -352,7 +357,8 @@ section {
   position: absolute;
   left: 0;
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 100%;
   top: 0;
   left: 0;
@@ -423,7 +429,6 @@ section {
 .wrapForm {
   max-width: 1570px;
   margin: 150px auto 0 auto;
-  height: 798px;
   position: relative;
 }
 .wrapForm img {
@@ -435,7 +440,7 @@ section {
   display: flex;
   flex-direction: column;
   max-width: 368px;
-  top: 336px;
+  bottom: 20%;
 }
 .wrapForm .blockForm .blockTitle {
   font-size: 64px;
@@ -453,7 +458,7 @@ section {
   max-width: 501px;
   position: absolute;
   right: 133px;
-  top: 452px;
+  bottom: -10%;
   background-color: #ffffff;
 }
 .wrapForm form .wrapInput {

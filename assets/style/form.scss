@@ -36,7 +36,7 @@ $margin: 0 auto;
 .wrapForm {
     max-width: $max-width;
     margin: 150px auto 0 auto;
-    height: 798px;
+    // height: 798px;
     position: relative;
     img {
         width: 100%;
@@ -45,7 +45,8 @@ $margin: 0 auto;
         @include posAbs_left(135px);
         @include flex_fd(column);
         max-width: 368px;
-        top: 336px;
+        // top: 336px;
+        bottom: 20%;
         .blockTitle {
             @include fontsc(64px, #ffffff);
             line-height: 122%;
@@ -61,7 +62,8 @@ $margin: 0 auto;
         max-width: 501px;
         position: absolute;
         right: 133px;
-        top: 452px;
+        // top: 452px;
+        bottom: -10%;
         background-color: #ffffff;
         .wrapInput {
             @include flex_fd(column);
