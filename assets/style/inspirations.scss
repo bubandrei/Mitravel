@@ -69,7 +69,7 @@ $margin: 0 auto;
     position: relative;
 }
 .about {
-    @include posAbs_left(5%);
+    @include posAbs_left(40px);
     @include fontsc(10px, #ffffff);
     bottom: 15%;
     line-height: 12px;
