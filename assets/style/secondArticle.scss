@@ -99,7 +99,7 @@ section {
         @include posAbs_left(133px);
         max-width: 368px;
         top: 127px;
-        left: 133px;
+        left: 20%;
 
         .callSecondCol {
             @include fontsc(64px, #ffffff);
