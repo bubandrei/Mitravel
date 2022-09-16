@@ -37,6 +37,7 @@ $margin: 0 auto;
     max-width: $max-width;
     height: 1080px;
     position: relative;
+    --bs-gutter-x:0;
 }
 
 header {

@@ -53,6 +53,7 @@ body {
   max-width: 1570px;
   height: 1080px;
   position: relative;
+  --bs-gutter-x:0;
 }
 
 header .navbar {
@@ -315,7 +316,7 @@ section {
   left: 133px;
   max-width: 368px;
   top: 127px;
-  left: 133px;
+  left: 20%;
 }
 .rightContainer .rightColumn .callSecondCol {
   font-size: 64px;

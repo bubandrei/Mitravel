@@ -15,6 +15,7 @@
   max-width: 1570px;
   height: 1080px;
   position: relative;
+  --bs-gutter-x:0;
 }
 
 header .navbar {
