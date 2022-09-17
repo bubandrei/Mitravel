@@ -17,6 +17,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.2.1",
     "glob": "^8.0.3",
     "global": "^4.4.0",
     "pug": "^3.0.2",
