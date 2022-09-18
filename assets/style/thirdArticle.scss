@@ -2,6 +2,13 @@
     padding: 0;
     margin-bottom: 150px;
 
+    .mr-del {
+        margin-right: 0;
+    }
+    .pr-del {
+        padding-right: 0;
+    }
+
     .row {
         flex-wrap: nowrap;
 
