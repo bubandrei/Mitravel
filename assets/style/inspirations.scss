@@ -25,6 +25,9 @@
 .posRelative{
     position: relative;
 }
+.margin-bot-5  {
+    margin-bottom: 5rem
+}
 .about {
     @include posAbs_left(40px);
     @include fontsc(10px, #ffffff);

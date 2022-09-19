@@ -1,0 +1,75 @@
+.wrap {
+  max-width: 1570px;
+  margin: 0 auto;
+  position: relative;
+}
+.wrap .nameArticle {
+  font-size: 64px;
+  color: #1c2e3d;
+  padding-top: 150px;
+  line-height: 80px;
+  text-align: center;
+}
+.wrap .textArticle {
+  font-size: 16px;
+  color: #788692;
+  font-family: "SFCompactText";
+  max-width: 640px;
+  line-height: 24px;
+  text-align: center;
+  text-align: center;
+  margin: 0 auto 96px auto;
+}
+
+.posRelative {
+  position: relative;
+}
+
+.about {
+  position: absolute;
+  left: 40px;
+  font-size: 10px;
+  color: #ffffff;
+  bottom: 70px;
+  line-height: 12px;
+  letter-spacing: 1.1px;
+  margin-bottom: 8px;
+}
+.about a {
+  text-decoration: none;
+  display: block;
+}
+.about .title {
+  font-size: 32px;
+  color: #ffffff;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+.about .avatar {
+  position: relative;
+}
+.about .avatar .avatar1 {
+  position: absolute;
+}
+.about .avatar .avatar1 img {
+  position: absolute;
+}
+.about .avatar .avatar2 {
+  position: absolute;
+  left: 32px;
+}
+.about .avatar .avatar2 img {
+  position: absolute;
+}
+.about .avatar .avatar3 {
+  position: absolute;
+  left: 64px;
+}
+.about .avatar .avatar3 img {
+  position: absolute;
+}
+
+.inspiration_wrap {
+  height: 100%;
+  padding: 0;
+}
