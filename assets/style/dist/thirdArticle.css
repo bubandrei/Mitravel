@@ -3,6 +3,14 @@
   width: 1920px;
   height: 670px;
   overflow: hidden;
+  position: relative;
+}
+.container-carusel .img-toggel {
+  width: 94%;
+  justify-content: space-between;
+  display: flex;
+  position: absolute;
+  top: 50%;
 }
 .container-carusel .row-carusel {
   width: 1920px;
@@ -13,13 +21,6 @@
 .container-carusel .row-carusel .img-center {
   position: relative;
   padding: 0 2rem;
-}
-.container-carusel .row-carusel .img-center .img-toggel {
-  width: 94%;
-  justify-content: space-between;
-  display: flex;
-  position: absolute;
-  top: 50%;
 }
 .container-carusel .row-carusel .item-img {
   height: 100%;
