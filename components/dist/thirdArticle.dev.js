@@ -1,5 +1,5 @@
 "use strict";
 
-var btn = document.querySelector('container-carusel');
+var btn = document.querySelector('.wrap');
 console.log(btn);
-btn.style.backgroundColor = 'red';
+btn.style.color = 'red';

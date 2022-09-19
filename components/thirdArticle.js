@@ -1,3 +1,3 @@
-const btn = document.querySelector('container-carusel');
+const btn = document.querySelector('.wrap');
 console.log(btn)
-btn.style.backgroundColor = 'red';
+btn.style.color = 'red';
