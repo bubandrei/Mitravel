@@ -1,5 +1,6 @@
 "use strict";
 
-var btn = document.querySelector('.wrap');
-console.log(btn);
-btn.style.color = 'red';
+var call = document.querySelector('.nameArticle');
+var btnLeft = document.querySelector('.btn-left');
+var btnRight = document.querySelector('.btn-right');
+call.style.color = 'red';

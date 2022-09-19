@@ -5,7 +5,22 @@
   overflow: hidden;
 }
 .container-carusel .row-carusel {
-  display: flex;
-  transform: translateX(-75px);
   width: 1920px;
+  display: flex;
+  transform: translateX(-43%);
+  height: 690px;
+}
+.container-carusel .row-carusel .img-center {
+  position: relative;
+  padding: 0 2rem;
+}
+.container-carusel .row-carusel .img-center .img-toggel {
+  width: 94%;
+  justify-content: space-between;
+  display: flex;
+  position: absolute;
+  top: 50%;
+}
+.container-carusel .row-carusel .item-img {
+  height: 100%;
 }
