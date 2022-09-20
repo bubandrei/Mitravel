@@ -3,17 +3,16 @@ const btnLeft = document.querySelector('.bntLeft');
 const btnRight = document.querySelector('.btnRight');
 const carusel = document.querySelector('.row-carusel');
 const imgCenter = document.querySelector('.img-center');
-const width = -43;
+const width = 43;
 let currenIndex = 0;
-const lastIndex = -1;
 
 btnLeft.onclick = function(){
-    currenIndex--;
+    currenIndex = 29;
     scrollCarousel()
     
 }
 btnRight.onclick = function(){
-    currenIndex++;
+    currenIndex = -29;
     scrollCarousel()
 }
 function scrollCarousel(){
