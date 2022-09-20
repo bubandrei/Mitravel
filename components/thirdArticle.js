@@ -1,41 +1,21 @@
 // const call = document.querySelector('.nameArticle');
 // const btnLeft = document.querySelector('.bntLeft');
-const btnRight = document.querySelector('.btnRight');
+// const btnRight = document.querySelector('.btnRight');
 // const carusel = document.querySelector('.row-carusel');
 // const imgCenter = document.querySelector('.img-center')
-// const width = -43;
+// const width = 73;
+// let currenIndex = 0;
+// const lastIndex = -1;
 
 // btnLeft.onclick = function(){
-//     carusel.style.transform = `translateX(${5 - width}%)`;
+//     currenIndex--;
+//     scrollCarousel()
+    
 // }
 // btnRight.onclick = function(){
-//     carusel.style.transform = `translateX(${5 + width}%)`;
+//     currenIndex++;
+//     scrollCarousel()
 // }
-const imgAll = document.querySelectorAll('.item-img');
-console.log(imgAll)
-let slider = [];
-for (let i = 0; i < imgAll.length; i++) {
-    slider[i] = imgAll[i].src;
-
-}
-console.log(slider)
-
-let step = 0;
-let offset = 0;
-
-function draw() {
-    let img = document.createElement('img');
-    img.src = slider[step];
-    img.classList.add('.item-img');
-    img.style.transform = 'translateX(-83%)';
-    document.querySelector('.row-carusel').appendChild(img);
-    if (step + 1 == slider.length) {
-        step = 0
-    } else {
-        step++;
-    }
-
-}
-btnRight.onclick = function () {
-    draw()
-}
+// function scrollCarousel(){
+//     carusel.style.transform = `translateX(${currenIndex * width}%)`;
+// }
