@@ -3,7 +3,7 @@
 // const btnRight = document.querySelector('.btnRight');
 // const carusel = document.querySelector('.row-carusel');
 // const imgCenter = document.querySelector('.img-center')
-// const width = 73;
+// const width = -43;
 // let currenIndex = 0;
 // const lastIndex = -1;
 // btnLeft.onclick = function(){
@@ -15,6 +15,6 @@
 //     scrollCarousel()
 // }
 // function scrollCarousel(){
-//     carusel.style.transform = `translateX(${currenIndex * width}%)`;
+//     carusel.style.transform = `translateX(${currenIndex + width}%)`;
 // }
 "use strict";
